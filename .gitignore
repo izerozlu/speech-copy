@@ -1,0 +1,22 @@
+.codex/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tooling/editor
+.idea/
+.DS_Store
+
+# Build/test artifacts
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
