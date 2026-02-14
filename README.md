@@ -11,6 +11,17 @@ A local speech-to-text CLI using `faster-whisper` and your microphone.
 - Local transcription with Whisper `large-v3` by default
 - Transcript output copied to clipboard automatically
 
+## Requirements
+
+- Python `3.10+`
+- `pip` (latest recommended)
+- A working input microphone
+- PortAudio runtime for `sounddevice`
+  - macOS: `brew install portaudio`
+  - Debian/Ubuntu: `sudo apt-get install portaudio19-dev`
+- Clipboard backend for `pyperclip` (Linux only)
+  - `xclip`, `xsel`, or `wl-clipboard`
+
 ## Setup
 
 ```bash
