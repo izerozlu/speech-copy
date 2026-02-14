@@ -25,7 +25,7 @@ run:
 	$(PYTHON) main.py
 
 run-ever:
-	$(PYTHON) main.py --mode ever-running --mic 0 --trigger-threshold 0.06
+	$(PYTHON) main.py --mode ever-running --trigger-threshold 0.06
 
 list-mics:
 	$(PYTHON) main.py --list-mics
